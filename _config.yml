@@ -64,7 +64,7 @@ gitalk:
   enable: true    #是否开启Gitalk评论
   clientID: a453441a009ce45cdec1   #生成的clientID
   clientSecret: 6e1583672614b36e6f29f7133e396f42dc63ef68  #同上
-  repo: oooctopus.github.io    #仓库名称
+  repo: https://github.com/oooctopus/oooctopus.github.io.git   #仓库名称
   owner: oooctopus    #github用户名
   admin: oooctopus
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
