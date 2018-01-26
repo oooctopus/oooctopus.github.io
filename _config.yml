@@ -66,7 +66,7 @@ gitalk:
   clientSecret: 9518b901e4eacb6a4c0b179c951912f7c2c823ab  #同上
   repo: oooctopus.github.io   #仓库名称
   owner: oooctopus    #github用户名
-  admin: oooctopus
+  admin: [oooctopus]
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 
