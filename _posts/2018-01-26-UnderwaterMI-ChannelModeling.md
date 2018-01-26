@@ -4,7 +4,7 @@ title:      A Comprehensive Note about the Channel Model of Underwater Magnetic 
 subtitle:   Welcome to the Mysterious Underwater MI World
 date:       2018-01-26
 author:     Oooctopus
-header-img: img-post-bg-MI.jpg
+header-img: img/img-post-bg-MI.jpg
 catalog: true
 tags: MI
     - Underwater
