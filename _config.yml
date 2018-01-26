@@ -62,8 +62,8 @@ kramdown:
 # Gitalk
 gitalk:
   enable: true    #是否开启Gitalk评论
-  clientID: 32e9a3f7243adc598ec7   #生成的clientID
-  clientSecret: 9518b901e4eacb6a4c0b179c951912f7c2c823ab  #同上
+  clientID: 3bcb29a303a69d303b0b   #生成的clientID
+  clientSecret: 3f67431fe656cf9e80b6aeaac5b3e0f039a857bc  #同上
   repo: oooctopus.github.io   #仓库名称
   owner: oooctopus    #github用户名
   admin: [oooctopus]
