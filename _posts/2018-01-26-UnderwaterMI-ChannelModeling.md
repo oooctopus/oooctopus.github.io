@@ -1,3 +1,4 @@
+<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"> </script>
 ---
 layout:     post
 title:      A Comprehensive Note about the Channel Model of Underwater Magnetic Induction Communications
@@ -23,8 +24,8 @@ The induced voltage is related to the coupling between the coils, which is deter
 <a href="http://www.codecogs.com/eqnedit.php?latex=M=\frac{\mu{\pi}N_{tx}N_{rx}a^2_{tx}a^2_{rx}}{2\sqrt{(a^2_{tx}&plus;r^2)^3}}" target="_blank"><img src="http://latex.codecogs.com/gif.latex?M=\frac{\mu{\pi}N_{tx}N_{rx}a^2_{tx}a^2_{rx}}{2\sqrt{(a^2_{tx}&plus;r^2)^3}}" title="M=\frac{\mu{\pi}N_{tx}N_{rx}a^2_{tx}a^2_{rx}}{2\sqrt{(a^2_{tx}+r^2)^3}}" /></a> 
 </center>
 where 
-\\(\mu\\)
-\\[\mu\pi\\]
+$\mu$
+$$\mu\pi$$
 # Reference
 [1] Steven Kisseleff and Ian F. Akyildiz, "Throughput of the Magnetic Induction Based Wireless Underground Sensor Networks: Key Optimization Techniques".   
 [2] Mari Carmen Domingo, "Magnetic Induction for Underwater Wireless Communication Networks".
