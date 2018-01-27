@@ -22,7 +22,9 @@ The induced voltage is related to the coupling between the coils, which is deter
 <center>
 <a href="http://www.codecogs.com/eqnedit.php?latex=M=\frac{\mu{\pi}N_{tx}N_{rx}a^2_{tx}a^2_{rx}}{2\sqrt{(a^2_{tx}&plus;r^2)^3}}" target="_blank"><img src="http://latex.codecogs.com/gif.latex?M=\frac{\mu{\pi}N_{tx}N_{rx}a^2_{tx}a^2_{rx}}{2\sqrt{(a^2_{tx}&plus;r^2)^3}}" title="M=\frac{\mu{\pi}N_{tx}N_{rx}a^2_{tx}a^2_{rx}}{2\sqrt{(a^2_{tx}+r^2)^3}}" /></a> 
 </center>
+\\(\mu\\)
 
+\\[\mu\\]
 # Reference
 [1] Steven Kisseleff and Ian F. Akyildiz, "Throughput of the Magnetic Induction Based Wireless Underground Sensor Networks: Key Optimization Techniques".   
 [2] Mari Carmen Domingo, "Magnetic Induction for Underwater Wireless Communication Networks".
