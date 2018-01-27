@@ -20,13 +20,8 @@ From the perspective of power, path loss of an underwater MI channel is mainly c
 
 ## Mutual Induction
 The induced voltage is related to the coupling between the coils, which is determined by the mutual inductance [1],[2]    
-<center>
-<a href="http://www.codecogs.com/eqnedit.php?latex=M=\frac{\mu{\pi}N_{tx}N_{rx}a^2_{tx}a^2_{rx}}{2\sqrt{(a^2_{tx}&plus;r^2)^3}}" target="_blank"><img src="http://latex.codecogs.com/gif.latex?M=\frac{\mu{\pi}N_{tx}N_{rx}a^2_{tx}a^2_{rx}}{2\sqrt{(a^2_{tx}&plus;r^2)^3}}" title="M=\frac{\mu{\pi}N_{tx}N_{rx}a^2_{tx}a^2_{rx}}{2\sqrt{(a^2_{tx}+r^2)^3}}" /></a> 
-</center>
-where 
-\(\mu\) \\(\mu\\)
-\[\mu\] \\[\mu\\]
-$\mu\pi$ $$\mu\pi$$
+\\(M = \frac{\mu\pi N_{tx}N_{rx} a^2_{tx}a^2_{rx}}{2\sqrt{(a^2_{tx}+r^2)^3}}\\)
+\\[M = \frac{\mu\pi N_{tx}N_{rx} a^2_{tx}a^2_{rx}}{2\sqrt{(a^2_{tx}+r^2)^3}}\\]
 # Reference
 [1] Steven Kisseleff and Ian F. Akyildiz, "Throughput of the Magnetic Induction Based Wireless Underground Sensor Networks: Key Optimization Techniques".   
 [2] Mari Carmen Domingo, "Magnetic Induction for Underwater Wireless Communication Networks".
