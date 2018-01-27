@@ -19,13 +19,11 @@ tags: MI
 From the perspective of power, path loss of an underwater MI channel is mainly consisting of the active power consumed by the resistant elements in the transmitting circuit, the reactive power that is not induced by the receiving circuit, and the attenuation incurred by the eddy currents through the conductive seawater. Typically, path loss of underwater MI channels is best characterized by the mutual inductance between the transmitted coil and the received coil. 
 
 ## Mutual Induction
-The induced voltage is related to the coupling between the coils, which is determined by the mutual inductance [1],[2]     
-\\( M = \frac{\mu\pi N_{tx}N_{rx} a^2_{tx}a^2_{rx}}{2\sqrt{(a^2_{tx}+r^2)^3}} \\)  
-\\[ M = \frac{\mu\pi N_{tx}N_{rx} a^2_{tx}a^2_{rx}}{2\sqrt{(a^2_{tx}+r^2)^3}} \\]  
-$$ M = \frac{\mu\pi N_{tx}N_{rx} a^2_{tx}a^2_{rx}}{2\sqrt{(a^2_{tx}+r^2)^3}} $$  
-$ M = \frac{\mu\pi N_{tx}N_{rx} a^2_{tx}a^2_{rx}}{2\sqrt{(a^2_{tx}+r^2)^3}} $      
-\( M = \frac{\mu\pi N_{tx}N_{rx} a^2_{tx}a^2_{rx}}{2\sqrt{(a^2_{tx}+r^2)^3}} \)    
-\[ M = \frac{\mu\pi N_{tx}N_{rx} a^2_{tx}a^2_{rx}}{2\sqrt{(a^2_{tx}+r^2)^3}} \]
+The induced voltage is related to the coupling between the coils, which is determined by the mutual inductance [1]-[2]      
+<center> $$ M = \frac{\mu\pi N_{tx}N_{rx} a^2_{tx}a^2_{rx}}{2\sqrt{(a^2_{tx}+r^2)^3}} $$ </center>
+where $$\mu$$ is the magnetic permeability, $$\mu = \mu_0 \cdot \mu_r$$, $$\mu_0 = 4\pi \cdot 10^-7$$ H/m is the magnetic constant, $$\mu_r = 1$$ is the relative permeability of water. $$a_{tx},a_{rx},N_{tx},N_{rx}$$ are the radii and turns of the transmitted and received coils, respectively, and $$r$$ is the distance between them.
+
+
 # Reference
 [1] Steven Kisseleff and Ian F. Akyildiz, "Throughput of the Magnetic Induction Based Wireless Underground Sensor Networks: Key Optimization Techniques".   
 [2] Mari Carmen Domingo, "Magnetic Induction for Underwater Wireless Communication Networks".
