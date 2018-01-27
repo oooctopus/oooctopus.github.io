@@ -6,9 +6,7 @@ date:       2018-01-26
 author:     Oooctopus
 header-img: img/img-post-bg-MI.jpg
 catalog: true
-tags: MI
-    - Underwater
-    - Channel Modeling
+tags: MI Underwater Communications
 ---
 
 > Path Loss Models
