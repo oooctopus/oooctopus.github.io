@@ -18,7 +18,7 @@ From the perspective of power, path loss of an underwater MI channel is mainly c
 
 ## Mutual Induction between two Coils with Identical Orientations
 The induced voltage is related to the coupling between the coils, which is determined by the mutual inductance [1]-[2]      
-<center> $$ M = \frac{\mu\pi N_{tx}N_{rx} a^2_{tx}a^2_{rx}}{2\sqrt{(a^2_{tx}+r^2)^3}} \cdot J \cdot G$$ </center>
+<center> $$ M = \frac{\mu\pi N_{tx}N_{rx} a^2_{tx}a^2_{rx}}{4\sqrt{(a^2_{tx}+r^2)^3}} \cdot J \cdot G$$ </center>
 where $$\mu$$ is the magnetic permeability, $$\mu = \mu_0 \cdot \mu_r$$, $$\mu_0 = 4\pi \cdot 10^{-7}$$ H/m is the magnetic constant, $$\mu_r = 1$$ is the relative permeability of water. $$a_{tx},a_{rx},N_{tx},N_{rx}$$ are the radii and turns of the transmitted and received coils, respectively, and $$r$$ is the distance between them. $$G$$ characterizes the attenuation of eddy currents, which yields an exponential decrease of the field strength with the transmission distance similar to the skin effect in the copper wires. Hence, the loss factor     
 $$G$$ can be expressed as [1]
 <center> $$ G = e^{\frac{-r}{\sigma}} $$ </center> 
@@ -30,13 +30,13 @@ holds only for good conductors. For different range of frequencies, the same med
 In addition, $$J$$ is the polarization factor that is related to the orientations of coil antennas. In the litrature, the widely-adopted expression is only valid in the two-dimensional space, given as
 <center> $$ J_{2D} = 2\sin(\theta_{tx})\sin(\theta_{rx})+\cos(\theta_{tx})\cos(\theta_{rx}). $$ </center> 
 For the polarization factor in three-dimensional space, we obtain [1]
-<center> $$ J_{2D} = 2\sin(\theta_{tx})\sin(\theta_{rx})+\cos(\theta_{tx})\cos(\theta_{rx})\cos(\phi) $$ </center> 
+<center> $$ J_{3D} = 2\sin(\theta_{tx})\sin(\theta_{rx})+\cos(\theta_{tx})\cos(\theta_{rx})\cos(\phi) $$ </center> 
 where $$\theta_{tx}$$ and $$\theta_{rx}$$ are the angles 
 between the coil radial directionsmof transmitter and receiver, and the line connecting the two coil centers, respectively. $$\phi$$ is the angle difference between the coil axes in the plane that is orthogonal to the direction of transmission. Given the positions of transmitter and receiver coils and their axes orientation, the corresponding values for $$\theta_{tx}$$, $$\theta_{rx}$$, and $$\phi$$ can be
 determined using vector algebra.
 
 Usually, $$a_{tx}$$ is negligible compared with the transmission distance. Under this condition, the mutual inductance can be simplified as 
-<center> $$ M = \frac{\mu\pi N_{tx}N_{rx} a^2_{tx}a^2_{rx}}{2r^2} \cdot J \cdot G. $$ </center>  
+<center> $$ M = \frac{\mu\pi N_{tx}N_{rx} a^2_{tx}a^2_{rx}}{4r^2} \cdot J \cdot G. $$ </center>  
 
 ## Parameters of the Coil Antennas
 The self induction of a solenoid can be calculated as
