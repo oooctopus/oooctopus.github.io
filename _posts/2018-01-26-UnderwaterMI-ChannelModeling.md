@@ -19,8 +19,7 @@ From the perspective of power, path loss of an underwater MI channel is mainly c
 ## Mutual Induction between two Coils with Identical Orientations
 The induced voltage is related to the coupling between the coils, which is determined by the mutual inductance [1]-[2]      
 <center> $$ M = \frac{\mu\pi N_{tx}N_{rx} a^2_{tx}a^2_{rx}}{4\sqrt{(a^2_{tx}+r^2)^3}} \cdot J \cdot G$$ </center>
-where $$\mu$$ is the magnetic permeability, $$\mu = \mu_0 \cdot \mu_r$$, $$\mu_0 = 4\pi \cdot 10^{-7}$$ H/m is the magnetic constant, $$\mu_r = 1$$ is the relative permeability of water. $$a_{tx},a_{rx},N_{tx},N_{rx}$$ are the radii and turns of the transmitted and received coils, respectively, and $$r$$ is the distance between them. $$G$$ characterizes the attenuation of eddy currents, which yields an exponential decrease of the field strength with the transmission distance similar to the skin effect in the copper wires. Hence, the loss factor     
-$$G$$ can be expressed as [1]
+where $$\mu$$ is the magnetic permeability, $$\mu = \mu_0 \cdot \mu_r$$, $$\mu_0 = 4\pi \cdot 10^{-7}$$ H/m is the magnetic constant, $$\mu_r = 1$$ is the relative permeability of water. $$a_{tx},a_{rx},N_{tx},N_{rx}$$ are the radii and turns of the transmitted and received coils, respectively, and $$r$$ is the distance between them. $$G$$ characterizes the attenuation of eddy currents, which yields an exponential decrease of the field strength with the transmission distance similar to the skin effect in the copper wires. Hence, the loss factor $$G$$ can be expressed as [1]
 <center> $$ G = e^{\frac{-r}{\sigma}} $$ </center> 
 where $$\sigma$$ is the skin depth that depends on the signal frequency, conductivity, and permittivity of the transmission medium, which are usually treated as known to the system designer, given by [3]
 <center> $$ \sigma = \frac{1}{2\pi f\sqrt{\frac{\mu\epsilon}{2}(\sqrt{1+\frac{\sigma^2}{(2\pi f)^2\epsilon^2}}-1)}} $$ </center> 
