@@ -15,3 +15,7 @@ tags: EnglishLearning Poem
 <center>**`If you shed tears when you miss the sun, you also miss the stars`**</center>
 
 <center> ** `If you shed tears when you miss the sun, you also miss the stars` ** </center>
+
+<center> **`<mark>If you shed tears when you miss the sun, you also miss the stars</mark>`** </center> 
+
+<center> `<mark>If you shed tears when you miss the sun, you also miss the stars</mark>` </center>
