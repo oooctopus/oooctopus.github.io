@@ -4,7 +4,7 @@ title:      A Poem A Day
 subtitle:   A Poem A Day Makes Troubles Away
 date:       2018-02-06
 author:     Oooctopus
-header-img: post-img-180206.jpeg
+header-img: post-img-180206.jpg
 catalog: true
 tags: EnglishLearning Poem
 ---
