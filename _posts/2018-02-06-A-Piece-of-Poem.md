@@ -4,7 +4,7 @@ title:      A Poem A Day
 subtitle:   A Poem A Day Makes Troubles Away
 date:       2018-02-06
 author:     Oooctopus
-header-img: post-img-180206.jpg
+header-img: img/post-img-180206.jpg
 catalog: true
 tags: EnglishLearning Poem
 ---
@@ -12,5 +12,4 @@ tags: EnglishLearning Poem
 > Poems of Rabindranath Tagore
 
 # Today's Poem
-<center> <mark><b><i>If you shed tears when you miss the sun, you also miss the stars</i></b></mark> </center>
-
+<center> <mark><b><i>If you shed tears when you miss the sun, you also miss the stars</i></b></mark> </center>                  p{text-indent: 2em;}--from Rabindranath Tagore
