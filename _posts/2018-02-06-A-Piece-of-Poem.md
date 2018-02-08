@@ -14,8 +14,8 @@ tags: EnglishLearning Poem
 <script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"> </script>
 
 
-
-<center>  ` ** If you shed tears when you miss the sun, you also miss the stars. ** ` </center>
+<center>` If you shed tears when you miss the sun, you also miss the stars. `</center>
+<center>` ** If you shed tears when you miss the sun, you also miss the stars. ** `</center>
 <center>  ` * If you shed tears when you miss the sun, you also miss the stars. * ` </center>
 <center>  ` *** If you shed tears when you miss the sun, you also miss the stars. *** ` </center>
 <center>  ` —** If you shed tears when you miss the sun, you also miss the stars. —** ` </center>
