@@ -4,7 +4,7 @@ title:      A Poem A Day
 subtitle:   A Poem A Day Makes Troubles Away
 date:       2018-02-06
 author:     Oooctopus
-header-img: post-img-180206.jpg
+header-img: post-img-180206.jpeg
 catalog: true
 tags: EnglishLearning Poem
 ---
@@ -14,5 +14,5 @@ tags: EnglishLearning Poem
 <script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"> </script>
 
 # Today's Poem
-<center>` If you shed tears when you miss the sun, you also miss the stars. `</center>
+<center>**`If you shed tears when you miss the sun, you also miss the stars`**</center>
 
