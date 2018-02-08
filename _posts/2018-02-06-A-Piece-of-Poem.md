@@ -12,10 +12,4 @@ tags: EnglishLearning Poem
 > Poems of Rabindranath Tagore
 
 # Today's Poem
-<center>**`If you shed tears when you miss the sun, you also miss the stars`**</center>
-
-<center> ** `If you shed tears when you miss the sun, you also miss the stars` ** </center>
-
-<center> **`<mark>If you shed tears when you miss the sun, you also miss the stars</mark>`** </center> 
-
-<center> `<mark>If you shed tears when you miss the sun, you also miss the stars</mark>` </center>
+<center> <mark><b><i>If you shed tears when you miss the sun, you also miss the stars<i></b></mark> </center>
