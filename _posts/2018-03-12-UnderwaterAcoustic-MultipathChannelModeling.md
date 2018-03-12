@@ -14,7 +14,7 @@ tags: Acoustic Underwater Communications
 <script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"> </script>
 
 # Nominal Conditions and Large-scale Path Loss
-Nominal channel geometry, along with a specified sound-speed profile, gives rise to the nominal response of an acoustic channel that characterizes a time-invariant system. The basic path loss experienced by a signal of frequency $f$ traveling over distance $l$ affects the received signal energy and
+Nominal channel geometry, along with a specified sound-speed profile, gives rise to the nominal response of an acoustic channel that characterizes a time-invariant system. The basic path loss experienced by a signal of frequency $$f$$ traveling over distance $$l$$ affects the received signal energy and
 is given by
 <center> $$A(l,f) = A_o l^k a(f)^l$$ </center>
 where $$A_o$$ is a scaling constant, $$k$$ is the spreading factor, and $$a(f)$$ is the absorption coefficient, which can be obtained in decibels per kilometer using the Thorp's empirical formula as
@@ -24,7 +24,7 @@ where $$f$$ is in kilohertz.
 ## Multi-path Effect
 Considering multiple propagation paths of nominal length $$\overline{l}_p$$, $$p=0,...,P-1$$, each path will act as a lowpass filter, whose transfer function, which affects the amplitude of the received signal, can be modeled as
 <center> $$\overline{H}_p(f) = \frac{\Gamma_p}{\sqrt{A(\overline{l}_p,f)}}$$ </center>
-where $$\Gamma_p$$ is the cumulative reflection coefficient encountered over $$n_{sp}$$ surface and $$n_{bp}$$ bottom reflections along the $p$-th path. Particularly, $$\overline{H}_p(f) = \frac{1}{\sqrt{(\overline{l}_p,f)}}$$ if $$n_{sp} = 0$$ and $$n_{bp} = 0$$.
+where $$\Gamma_p$$ is the cumulative reflection coefficient encountered over $$n_{sp}$$ surface and $$n_{bp}$$ bottom reflections along the $$p$$-th path. Particularly, $$\overline{H}_p(f) = \frac{1}{\sqrt{(\overline{l}_p,f)}}$$ if $$n_{sp} = 0$$ and $$n_{bp} = 0$$.
 
 Given the transfer function of each path, the overall transfer function of the multipath channel is obtained as
 <center> $$\overline{H}(f) = \sum_{p} \overline{H}_p(f)e^{-j2\pi f\overline{\tau}_p}$$ </center>
