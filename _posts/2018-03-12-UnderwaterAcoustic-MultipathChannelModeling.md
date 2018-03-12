@@ -53,4 +53,4 @@ From our discussion so far, it seems reasonable to adopt a channel model in whic
 
 # Reference
 [1] P. Qarabaqi, M. Stojanovic, “Statistical characterization and computationally
-efficient modeling of a class of underwater acoustic communication channels”, <p><font color="#0000FF"><i>IEEE J. Ocean. Eng.</i></font></p>, vol. 38, no. 4, Sep. 2013.
+efficient modeling of a class of underwater acoustic communication channels”, <font color="#0000FF"><i>IEEE J. Ocean. Eng.</i></font>, vol. 38, no. 4, Sep. 2013.
