@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      A Piece of Song  
-subtitle:   Beautiful Melodies Free One's heart
+subtitle:   Beautiful Melodies Free One's Heart
 date:       2018-03-14
 author:     Oooctopus
 header-img: img/img-post-bg-Song.jpg
