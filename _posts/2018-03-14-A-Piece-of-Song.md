@@ -14,5 +14,4 @@ tags: Music Jay-Chou
 <script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"> </script>
 
 ## Today's Song
-<embed src="http://music.163.com/#/m/song?id=531051217&userid=93158980" width=300 height=45 type=audio/mpeg loop="-1" autostart="false" volume="0"></embed>
-
+<script src="http://www.xiami.com/widget/player-dynamic?uid=354334468&id=354334468&width=235&height=346&mainColor=FF8719&backColor=494949&type=shuffle&autoplay=1&mode=js"></script>
