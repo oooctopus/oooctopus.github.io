@@ -14,4 +14,4 @@ tags: Music Jay-Chou ShuangSheng
 <script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"> </script>
 
 ## Today's Song
-<script src="http://www.xiami.com/widget/player-dynamic?uid=354334468&id=372968088&width=235&height=346&mainColor=4DB653&backColor=009609&type=collect&autoplay=1&mode=js"></script>
+<embed src="http://www.xiami.com/widget/354334468_372968088_235_346_4DB653_009609_0/collectPlayer.swf" type="application/x-shockwave-flash" width="235" height="346" wmode="opaque"></embed>
