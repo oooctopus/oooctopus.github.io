@@ -27,7 +27,7 @@ Let $$F(\alpha,\beta,\gamma)$$ be a function with continuous first and second pa
 <center> $$I(x) = \int_{a}^{b} F(x(t),x'(t),t)dt$$ </center>
 where the class of admissible curves comprises all smooth curves joining two fixed points, see the following figure.
 We will apply the necessary condition for an extremum (established in Theorem 1.)
-<center>![avatar](C:\Users\Administrator\Desktop\周报_latex\Euler-Lagrange.jpg)</center> 
+<center><img src="file:///C |/Users/Administrator/Desktop/周报_latex/Euler-Lagrange.jpg"/></center> 
 Theorem 1. Let $$S = \{x \in C^1[a,b] | x(a) = y_a \ \text{and} \ x(b)=y_b\}$$, and let $$I: S \rightarrow \mathbb{R}$$ be a function of the form
 <center> $$I(x) = \int_{a}^{b} F(x(t),x'(t),t)dt$$ </center>
 If $I$ has an extremum at $x_0 \in S$, then $x_0$ satisfies the Euler-Lagrange equation: 
