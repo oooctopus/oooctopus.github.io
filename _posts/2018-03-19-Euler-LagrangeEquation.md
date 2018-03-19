@@ -27,10 +27,10 @@ Let $$F(\alpha,\beta,\gamma)$$ be a function with continuous first and second pa
 <center> $$I(x) = \int_{a}^{b} F(x(t),x'(t),t)dt$$ </center>
 where the class of admissible curves comprises all smooth curves joining two fixed points, see the following figure.
 We will apply the necessary condition for an extremum (established in Theorem 1.)
-<center><img src="file:///C |/Users/Administrator/Desktop/周报_latex/Euler-Lagrange.jpg"/></center> 
+<center><img src="C:\Users\Administrator\Desktop\周报_latex/Euler-Lagrange.jpg" alt="（如果图片无法显示，浏览器就会使用这段文字进行替代）" title="Possible paths joining the two fixed points"/><center>
 Theorem 1. Let $$S = \{x \in C^1[a,b] | x(a) = y_a \ \text{and} \ x(b)=y_b\}$$, and let $$I: S \rightarrow \mathbb{R}$$ be a function of the form
 <center> $$I(x) = \int_{a}^{b} F(x(t),x'(t),t)dt$$ </center>
-If $I$ has an extremum at $x_0 \in S$, then $x_0$ satisfies the Euler-Lagrange equation: 
+If $$I$$ has an extremum at $$x_0 \in S$$, then $$x_0$$ satisfies the Euler-Lagrange equation: 
 <center> $$\frac{\partial{F}}{\partial{\alpha}}\big(x_0(t),x'_0(t),t\big) - \frac{d}{dt}\Big(\frac{\partial{F}}{\partial{\beta}}(x_0(t),x'_0(t),t)\Big) = 0, t \in [a,b].$$ </center>
 Note that the Euler-Lagrange equation is only a necessary condition for the extremum. However, in many cases, the Euler-Lagrange equation by itself is enough to give a complete solution of the problem. In fact, the existence of
 an extremum is sometimes clear from the context of the problem. If in such scenarios, there exists only one solution to the Euler-Lagrange equation, then this solution must a fortiori be the point for which the extremum is achieved.
