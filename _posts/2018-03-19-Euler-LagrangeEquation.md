@@ -28,6 +28,8 @@ Let $$F(\alpha,\beta,\gamma)$$ be a function with continuous first and second pa
 where the class of admissible curves comprises all smooth curves joining two fixed points, see the following figure.
 We will apply the necessary condition for an extremum (established in Theorem 1.)
 <center>![image](https://github.com/oooctopus/oooctopus.github.io/blob/master/img/Euler-Lagrange.jpg)</center>
+<center> <img src="/img/Euler-Lagrange.jpg"/> </center>
+<center> <img src="/img/Euler-Lagrange.jpg" alt="Possible ray paths between two nodes"/> </center>
 <center> <img src="https://github.com/oooctopus/oooctopus.github.io/blob/master/img/Euler-Lagrange.jpg"/> </center>
 <center> <img src=''https://github.com/oooctopus/oooctopus.github.io/blob/master/img/Euler-Lagrange.jpg'' alt=''Possible ray paths between two nodes''/> </center>
 <center> <img src="https://github.com/oooctopus/oooctopus.github.io/blob/master/img/Euler-Lagrange.jpg" alt="Possible ray paths between two nodes"/> </center>
