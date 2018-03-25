@@ -29,6 +29,8 @@ where the class of admissible curves comprises all smooth curves joining two fix
 We will apply the necessary condition for an extremum (established in Theorem 1.)
 <center>![image](https://github.com/oooctopus/oooctopus.github.io/blob/master/img/Euler-Lagrange.jpg)</center>
 <center> <img src="https://github.com/oooctopus/oooctopus.github.io/blob/master/img/Euler-Lagrange.jpg"/> </center>
+<center> <img src=''https://github.com/oooctopus/oooctopus.github.io/blob/master/img/Euler-Lagrange.jpg'' alt=''Possible ray paths between two nodes''/> </center>
+<center> <img src="https://github.com/oooctopus/oooctopus.github.io/blob/master/img/Euler-Lagrange.jpg" alt="Possible ray paths between two nodes"/> </center>
 Theorem 1. Let $$S = \{x \in C^1[a,b] | x(a) = y_a \ \text{and} \ x(b)=y_b\}$$, and let $$I: S \rightarrow \mathbb{R}$$ be a function of the form
 <center> $$I(x) = \int_{a}^{b} F(x(t),x'(t),t)dt$$ </center>
 If $$I$$ has an extremum at $$x_0 \in S$$, then $$x_0$$ satisfies the Euler-Lagrange equation: 
