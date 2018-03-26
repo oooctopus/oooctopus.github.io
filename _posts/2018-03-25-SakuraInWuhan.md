@@ -6,7 +6,7 @@ date:       2018-03-22
 author:     Oooctopus
 header-img: img/img-post-bg-Sakura.jpg
 catalog: true
-tags: Calculus-of-variations Underwater Acoustic
+tags: Photo Sakura
 ---
 
 > Time of Happiness
