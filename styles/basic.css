@@ -1,0 +1,4 @@
+@charset "utf-8";
+nav ul,ul,li { list-style: none; }
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #cccccc; margin: 1em 0; padding: 0; }
+input, select { vertical-align: middle; }
