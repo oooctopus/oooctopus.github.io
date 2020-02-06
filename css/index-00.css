@@ -1,0 +1,142 @@
+/*第1层  江老师照片 */
+.jiangbox{width:160px;margin-top: 70px;margin-left: 15px;margin-right: 15px; margin-bottom:10px }
+.jiangBox { position: relative; width:160px; height:224px; overflow: hidden; font: 12px/1.5 Verdana, Geneva, sans-serif; text-align: left; background: white; z-index:1;}
+.jiangBox .pic img { width: 160px; height: 224px; display: block; }
+ .title {margin-left: 10px; position: relative;  overflow: hidden;   display: block; width:160px; height:31px; }
+
+/* 项目通知 */
+.infbox{width:330px;margin-top:70px; margin-bottom:10px}
+.infbox .tabs{ height:30px; border-bottom: 1px solid #838586;}
+.infbox .tabs li{float:left; margin-right:5px;background: #ffffff;}
+.infbox .tabs li a{padding:0 15px;  display:inline-block; font-size:16px; font-weight:bold; height:26px; line-height:26px; color:#000000;} 
+.infbox .panes ul{padding:0 35px 0 16px;background:#ffffff; }/*border: 1px solid #838586;border-top: 1px solid #838586;*/
+.infbox .panes ul li{padding:0 0 0 12px; line-height:33px;margin-top: 3px;border-bottom:0px solid #c5c5c6;background:url(../images/syuan.png) left center no-repeat;overflow:hidden;position:relative;}
+.infbox .panes ul li a{font-size:13px; color:#000000;font-family:"Microsoft YaHei", "Arial", simsun, sans-serif;}
+.infbox .panes ul li a:hover{color:#ff0072;font-weight: bold;}
+.infbox .panes ul li a span{position:absolute;right:0;top:0;font-weight: normal;}    
+
+/* 项目动态 滑动照片 */
+.banlbox{width:350px;margin-top: 100px;margin-left: 15px;margin-bottom:10px }
+.focusBox { position: relative; width:320px; height:224px; overflow: hidden; font: 12px/1.5 Verdana, Geneva, sans-serif; text-align: left; background: white; z-index:1;}
+.focusBox .pic img { width: 320px; height: 224px; display: block; }
+.focusBox .txt-bg { position: absolute; bottom:0px; z-index: 1; height:32px; width:100%;  background: #000; filter: alpha(opacity=60); opacity: 0.6; -moz-opacity: 0.6; overflow: hidden; }
+.focusBox .txt { position: absolute; bottom:6px; z-index: 2; height:32px; width:100%; overflow: hidden; }
+.focusBox .txt li{ height:18px; line-height:18px; position:absolute; }
+.focusBox .txt li a{ display: block; color:#fff; padding: 0 150px 0 28px; font-size: 12px; text-decoration: none; }
+.focusBox .num { position: absolute; z-index: 3; bottom:11px; right:29px; }
+.focusBox .num li{ float: left; position: relative; width: 10px; height: 10px; line-height: 10px; overflow: hidden; text-align: center; margin-right:6px; cursor: pointer; }
+.focusBox .num li a,.focusBox .num li span { position: absolute; z-index: 2; display: block; color: white; width: 100%; height: 100%; top: 0; left: 0; text-decoration: none; text-indent:-999px;}
+.focusBox .num li span { z-index: 1; background:#fff;}
+.focusBox .num li.on a,.focusBox .num a:hover{ background:#e70014;}
+
+/* 项目新闻 */
+.newsbox{width:330px;margin-top:70px;margin-left: 15px; margin-bottom:10px}
+.newsbox .tabs{ height:30px; }
+.newsbox .tabs li{float:left; margin-right:5px;background: #ffffff;}
+.newsbox .tabs li a{padding:0 15px;border: 0px solid #989a9b; display:inline-block; font-size:16px; font-weight:bold; height:26px; line-height:26px; color:#000000;} 
+.newsbox .panes ul{padding:0 35px 0 16px;background:#ffffff; border-top: 1px solid #838586;}/*border: 1px solid #838586;border-top: 1px solid #838586;*/
+.newsbox .panes ul li{padding:0 0 0 12px; line-height:33px;margin-top: 3px;border-bottom:0px solid #c5c5c6;background:url(../images/syuan.png) left center no-repeat;overflow:hidden;position:relative;}
+.newsbox .panes ul li a{font-size:13px; color:#000000;font-family:"Microsoft YaHei", "Arial", simsun, sans-serif;}
+.newsbox .panes ul li a:hover{color:#ff0072;font-weight: bold;}
+.newsbox .panes ul li a span{position:absolute;right:0;top:0;font-weight: normal;}   
+
+/* 第二层 项目简介+项目简报+项目成果 */
+  
+.five{clear: both;  }
+
+/*左侧导航栏   width: 290px;margin-bottom:30px;  */
+.ltbox{width:160px; margin-bottom:30px;  border-radius:5px; padding-bottom:20px; _overflow:hidden;  border-top:0px solid;margin-left: 15px;margin-right: -15px;}/* background:#f7f7f7;*/
+.ltbox .tit{height:49px; width:160px; margin:6px 0 -10px -1px; background:url(../images/col_title2.jpg) no-repeat;}
+.ltbox .tit h2{  padding:10px 0px 0 80px; font-size:25px; color:#fff; font-weight:bold; text-shadow: -2px -2px 2px #0678b0; _padding:15px 0 0 73px;}
+.ltmenu{margin-bottom:-20px; }
+/*.menulist{border-bottom:1px solid #dcdcdc;} */
+.menulist li{height:35px; width:160px;font-size: 14px; line-height:35px;   }
+.menulist li a{display:inline-block; font-weight:bold; color:#595757;margin-left: 0px;     }
+/* .menulist li a:hover{color:#ff0030;} */
+.menulist li a i{width:16px;margin-right:10px; line-height:16px; height:16px;  }
+ 
+.menulist li.cli i{width:8px; height:8px;display: inline-block; margin-left:15px;margin-top:15px;background:url(../images/icon_column_2.gif) no-repeat; }
+.menulist li.mycl{height:46px; line-height:46px; background:url(../images/mencur.png)  repeat-y; width:160px;margin-left: -1px;}
+.menulist li.mycl i{width:16px;height: 16px;display: inline-block; margin-right:7px;background:url(../images/red_icon.png)no-repeat;}
+
+
+
+/* 项目成果*/
+.idxmb{width: 1070px;height:320px;margin-bottom:30px; }
+
+.idxmb .border{ border-top: 1px solid #838586;padding-top: 10px;padding-bottom:10px;margin-top: 1px;}
+
+.idxmb .tit{height: 34px; padding-top: 0px;}
+.idxmb .tit h2{font-size:16px; font-weight:bold; height:32px; line-height:34px; color:#000000;width: 70px;  padding:0 15px; }
+
+.idxmbl{width:700px;margin-top: 10px;height:280px}
+.idxmbl #idxpic{width:103px;}
+.idxmbl #idxpic img{float:left; margin-bottom:3px; cursor:pointer; width:103px; height:79px;}
+.idxmbl div a{float:left; display:inline-block; position:relative; width:550px; height:270px;}
+.idxmbl div a img{width:550px; height:270px;}
+
+
+.idxmbl div a p{position:absolute; bottom:0px; left:0px; height:30px; line-height:30px; text-align:center; color:#fff; font-size:12px; width:322px; padding:0 10px; z-index:2;}
+.idxmbl div a span{position:absolute; height:30px; line-height:30px; z-index:1; display:inline-block; width:100%; background:#000; opacity:0.5; filter:alpha(opacity=50); -moz-opacity: 0.5; bottom:0px; left:0px; z-index:1;}
+
+
+
+.idxmbr{width:300px; padding-right:4px;margin-top: 10px;}
+.idxmbr dl{padding-bottom:15px;}
+ 
+.idxmbr dl dd{height:32px;background:url(../images/syuan.png) left center no-repeat;padding:0 0 0 13px; text-overflow:ellipsis;white-space:nowrap;overflow:hidden;}
+*+html .idxmbr dl dd{height:32px; }
+ 
+.idxmbr dl dd a{line-height:32px;float:left; _display:inline;color: #000000;font-size: 13px;}
+.idxmbr dl dd a:hover{color: #e6004f;font-weight: bold;}
+*+html .idxmbr dl dd a{display:inline; float:left;}
+ 
+*+html .idxmbr dl dd span{display:inline;}
+
+#idxmb_main{position:relative; overflow:hidden; height:270px; width:550px;}
+#pages{position:absolute; height:20000em;}
+.page{height:275px; width:550px;}
+#main_navi{ width:130px;height:90px;}
+#main_navi li img{float:left; margin-bottom:3px; cursor:pointer; opacity:0.80; filter:alpha(opacity=80); -moz-opacity: 0.80; width:140px; height:88px;}
+#main_navi li.active img{opacity:1; filter:alpha(opacity=100); -moz-opacity:1;}
+
+/* 文字部分*/
+.idxls{width: 290px;margin-bottom:30px;}
+.at_hide,.auto_hide li,.auto_hide dd{text-overflow:ellipsis;white-space:nowrap;overflow:hidden;}
+.idxls .tit{height: 34px;border-bottom: 3px solid #2a7cae;padding-top: 0px;}
+.idxls .tit h2{font-size:13px; font-weight:bold; height:32px; line-height:34px; color:#000000;width: 70px;border: 2px solid #989a9b;border-bottom:2px solid #2a7cae;padding:0 15px;background:url(../images/bancur2.png) center bottom no-repeat;}
+.idxls .bd{padding:10px 12px 0 8px;border: 1px solid #838586;}
+.idxls ul li{line-height:35px; padding-left:15px; background:url(../images/idxlsl.gif) bottom center no-repeat;}
+.idxls ul li a{background:url(../images/idxlsj.png) left center no-repeat;padding:0 5px 0 19px;color: #000000;}
+.idxls ul li a:hover{text-decoration:none;}
+
+
+ 
+
+/*第三层 参与单位图标展示*/
+.idxlink{ padding-bottom:5px;clear: both; }
+.idxlink .tit{height: 34px;border-bottom: 1px solid #838586;padding-top: 0px;}
+.idxlink .tit h2{ font-size:16px; font-weight:bold; height:32px; line-height:34px; color:#000000;width: 200px;border: 0px solid #989a9b;border-bottom:0px solid #2a7cae;padding:0 15px;}
+
+/*放华科图标*/
+.idxlink .pic1 ul{ background:url(../images/idxlbg.gif) left top repeat-x;padding-left: 5px; margin-left:40px}
+.idxlink .pic1  ul li{float:left; margin:15px 50px 0px 0px;}
+.idxlink .pic1  ul li a{border:0px solid #dddddf; display:inline-block; background:#fff; text-overflow:ellipsis; overflow:hidden; white-space:nowrap; max-width:194px;}
+.idxlink .pic1 ul li a img{height:160px; width:160px; float:left;}
+
+/*放其它单位<img src="D:/Program Files/QQ/下载/1636646695/FileRecv/清华.jpg" width="290" height="289" border="0" alt="">图标*/
+.idxlink .pic2 ul{ background:url(../images/idxlbg.gif) left top repeat-x;padding-left: 5px; margin-left:40px}
+.idxlink .pic2  ul li{float:left; margin:30px 60px 20px 0px;}
+.idxlink .pic2  ul li a{border:0px solid #dddddf; display:inline-block; background:#fff; text-overflow:ellipsis; overflow:hidden; white-space:nowrap; max-width:194px;}
+.idxlink .pic2 ul li a img{height:140px; width:140px; float:left;}
+
+/*放中兴图标*/
+.idxlink .pic3 ul{ background:url(../images/idxlbg.gif) left top repeat-x;padding-left: 5px; margin-left:40px}
+.idxlink .pic3  ul li{float:left; margin:50px 60px 20px 0px;}
+.idxlink .pic3  ul li a{border:0px solid #dddddf; display:inline-block; background:#fff; text-overflow:ellipsis; overflow:hidden; white-space:nowrap; max-width:194px;}
+.idxlink .pic3 ul li a img{height:80px; width:140px; float:left;} 
+ 
+.clearfix:after{visibility:hidden; display:block; font-size:0; content:" "; clear:both; height:0;  }
+
+ 
+ 
